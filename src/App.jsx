@@ -1,7 +1,7 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Layout from "./components/Layout.jsx"
-// import Home from "./pages/Home.jsx"
+import Home from "./pages/Home.jsx"
 import Badges from "./pages/Badges.jsx"
 import BadgeDetails from "./components/badges/BadgeDetails.jsx"
 import Banners from "./pages/Banners.jsx"
@@ -16,12 +16,12 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route element={<Layout />}>
-                    {/* <Route
-                        path="/"
-                        element={<Home />}
-                    /> */}
                     <Route
                         path="/"
+                        element={<Home />}
+                    />
+                    <Route
+                        path="/badges"
                         element={<Badges />}
                     >
                         <Route
