@@ -1,15 +1,17 @@
 import React from "react"
 import styled from "styled-components"
 import QuotationMark from "../../assets/QuotationMark.svg"
+import ProfileImage from "../../assets/profilepic1.jpeg"
 
 const backgroundColor = "#2545b8"
 const textColor = "#fff"
-const profilePic = "src/assets/profilepic1.jpeg"
-const quotationMark = QuotationMark
 const text =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. "
 const profileName = "May Andersons"
 const profileWorkplace = "Workcation, CTO"
+
+const quotationMark = QuotationMark
+const profilePic = ProfileImage
 
 const TestimonialDesktop = styled.div`
     .background {
