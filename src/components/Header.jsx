@@ -8,7 +8,7 @@ export default function Header() {
                 <NavLink to="/">Badges</NavLink>
                 <NavLink to="/banners">Banners</NavLink>
                 <NavLink to="cards">Cards</NavLink>
-                <NavLink to="testimonials">Testimonials</NavLink>
+                <NavLink to="/testimonials">Testimonials</NavLink>
                 <NavLink to="tooltips">Tooltips</NavLink>
                 <NavLink to="toasts">Toasts</NavLink>
             </nav>
