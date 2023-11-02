@@ -10,7 +10,7 @@ const profileName = "May Andersons"
 const profileWorkplace = "Workcation, CTO"
 
 const quotationMark = QuotationMark
-const profilePic = "dist/assets/profilepic1.jpeg"
+const profilePic = "src/assets/profilepic1.jpeg"
 
 const TestimonialMobile = styled.div`
     .background {
