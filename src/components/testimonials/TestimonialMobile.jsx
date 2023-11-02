@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import QuotationMark from "../../assets/svg/QuotationMark.svg"
+import QuotationMark from "../../assets/QuotationMark.svg"
 
 const backgroundColor = "#2545b8"
 const textColor = "#fff"
