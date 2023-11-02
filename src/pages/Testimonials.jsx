@@ -1,12 +1,12 @@
 import React from "react"
-import { TestimonialMobile } from "../components/testimonials/TestimonialMobile.jsx"
-import { TestimonialDesktop } from "../components/testimonials/TestimonialDesktop.jsx"
+import { TestimonialMobileComponent } from "../components/testimonials/TestimonialMobile.jsx"
+import { TestimonialDesktopComponent } from "../components/testimonials/TestimonialDesktop.jsx"
 
 export default function Testimonials() {
     return (
         <section className="testimonial-content content">
-            <TestimonialMobile />
-            <TestimonialDesktop />
+            <TestimonialMobileComponent />
+            <TestimonialDesktopComponent />
         </section>
     )
 }
